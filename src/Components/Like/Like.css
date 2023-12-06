@@ -1,0 +1,46 @@
+
+.mainLikeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+.clickMe {
+    margin-bottom: 30px;
+    font-size:xx-large;
+    color: orange;
+}
+
+
+.icon {
+    animation: spin infinite linear 5s;
+}
+.icon:hover {
+    cursor: pointer;
+}
+
+.post {
+    background-color: antiquewhite;
+    color: black;
+    padding:30px;
+    border-radius: 22px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+
+
+
+@keyframes spin {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+
+}
